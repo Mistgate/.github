@@ -10,14 +10,14 @@
 
 **Mistgate** is a lightweight, self-hosted panel for your own VPN fleet: one Go binary for the panel, one for the node agent, no Docker. Hysteria2 and AmneziaWG live side by side, in one subscription, in one admin UI.
 
-> The source code is not public yet. The first repository will land in this organisation soon.
+**[Source code](https://github.com/Mistgate/mistgate)** · [Documentation](https://github.com/Mistgate/mistgate/tree/main/docs/en)
 
 ## Why another panel
 
 - **Light.** SQLite, systemd, two static binaries. No Docker, no database server. The panel's memory target at idle is 80 MB (a target for now, not a benchmark).
 - **AmneziaWG users are not a blind spot.** Every AmneziaWG device is a peer the panel knows about: who is online, traffic per user and per device.
 - **A doctor that knows hosters.** Disk and journals filling up, a resolver that cannot resolve, clock drift, port conflicts, a sick network baseline. Found, explained in plain words, fixed with one confirmed click where that is safe.
-- **Looked at from the client's side.** Synthetic probes connect the way a real client does (Hysteria2 today, more protocols next), so a node is green only if traffic really flows.
+- **Looked at from the client's side.** Synthetic probes connect the way a real client does (Hysteria2 and AmneziaWG), so a node is green only if traffic really flows.
 - **Made for AI agents too.** API tokens and an MCP server, with plan / apply and owner approvals for anything risky.
 
 ## What is inside
@@ -48,11 +48,11 @@ Mistgate is pre-release. What exists and what is coming:
 
 | Stage | What |
 |:--|:--|
-| **Done** | Panel and node agent over mTLS · Hysteria2 · AmneziaWG 2.0 / 3.1 · WARP egress · subscriptions and the public user page · DNS presets · health doctor, synthetic probes, alerts · signed node-agent updates with canary and rollback · API tokens and MCP server · admin UI in ru / en |
+| **Done** | Panel and node agent over mTLS · Hysteria2 · AmneziaWG 2.0 / 3.1 · WARP egress · subscriptions and the public user page · DNS presets · health doctor, synthetic probes, alerts · signed node-agent updates with canary and rollback · API tokens and MCP server · admin UI and documentation in ru / en |
 | **Now** | Node provisioning over SSH from the UI, with preflight checks · encrypted vault for server passwords · encrypted panel backups to R2 |
-| **Next** | Telegram bot for the whole fleet · more subscription formats (Xray JSON, sing-box) and subscription mirrors · panel self-update · documentation in ru / en and a one-line installer |
+| **Next** | Telegram bot for the whole fleet · more subscription formats (Xray JSON, sing-box) and subscription mirrors · panel self-update · a one-line installer |
 | **Later** | VLESS REALITY as the first external protocol plugin |
 
 ---
 
-<sub>Open source. The license will be announced with the first release.</sub>
+<sub>Open source under [AGPL-3.0](https://github.com/Mistgate/mistgate/blob/main/LICENSE).</sub>
