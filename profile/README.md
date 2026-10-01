@@ -4,9 +4,9 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
     <img alt="Mistgate: a lightweight, self-hosted VPN panel" src="./assets/banner-dark.svg" width="100%">
   </picture>
-</div>
 
-<br>
+  <p><b>English</b> · <a href="https://github.com/Mistgate/.github/blob/main/profile/README.ru.md">Русский</a></p>
+</div>
 
 **Mistgate** is a lightweight, self-hosted panel for your own VPN fleet: one Go binary for the panel, one for the node agent, no Docker. Hysteria2 and AmneziaWG live side by side, in one subscription, in one admin UI.
 
@@ -52,19 +52,6 @@ Mistgate is pre-release. What exists and what is coming:
 | **Now** | Node provisioning over SSH from the UI, with preflight checks · encrypted vault for server passwords · encrypted panel backups to R2 |
 | **Next** | Telegram bot for the whole fleet · more subscription formats (Xray JSON, sing-box) and subscription mirrors · panel self-update · documentation in ru / en and a one-line installer |
 | **Later** | VLESS REALITY as the first external protocol plugin |
-
-## Русский
-
-**Mistgate** — лёгкая панель для собственного VPN: один бинарь панели, один бинарь агента ноды, без Docker, на SQLite. Hysteria2 и AmneziaWG 2.0 / 3.1 работают в одной подписке: пользователи Happ, Mihomo и AmneziaVPN видны в одной панели, вместе с трафиком по пользователям и устройствам.
-
-- «Доктор флота» находит проблемы хостера и ноды (диск и журналы, резолвер, время, занятые порты) и объясняет их по-русски; безопасные исправления делаются одной кнопкой.
-- Синтетические проверки подключаются как настоящий клиент (пока через Hysteria2), поэтому нода «зелёная» только если трафик реально идёт.
-- Обновления агента подписаны и откатываются сами; для AI-агентов есть токены и MCP-сервер с подтверждением опасных действий.
-- Интерфейс на русском и английском.
-
-Для Windows советуем **[kl!ck](https://github.com/vbu00/klick)** — открытый VPN-клиент на ядре mihomo: вставляете ссылку подписки Mistgate и получаете Hysteria2 и AmneziaWG в одном окне, с маршрутизацией по сайтам и программам и Kill Switch. [Скачать](https://github.com/vbu00/klick/releases/latest). Версия для macOS скоро.
-
-Код пока не опубликован, первый репозиторий появится здесь.
 
 ---
 
