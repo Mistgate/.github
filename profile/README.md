@@ -29,6 +29,19 @@
 | <img src="./assets/icons/pulse.svg" width="32" height="32" align="absmiddle" alt="">&nbsp; **Fleet doctor**<br>Node self-checks with safe fixes, synthetic client probes, alerts with a full lifecycle. | <img src="./assets/icons/window.svg" width="32" height="32" align="absmiddle" alt="">&nbsp; **Admin UI**<br>Russian and English, dark and light, passkey sign-in. |
 | <img src="./assets/icons/shield.svg" width="32" height="32" align="absmiddle" alt="">&nbsp; **Signed updates**<br>Node agents check an ed25519-signed manifest themselves. Canary rollout, health gate, automatic rollback. | <img src="./assets/icons/spark.svg" width="32" height="32" align="absmiddle" alt="">&nbsp; **Agent access**<br>Tokens for read-only, operator and admin. Changes go through plan / apply; the risky ones wait for the owner. |
 
+## Desktop client: kl!ck
+
+<a href="https://github.com/vbu00/klick">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vbu00/klick/main/docs/logo/wordmark-dark.svg">
+    <img alt="kl!ck" src="https://raw.githubusercontent.com/vbu00/klick/main/docs/logo/wordmark-light.svg" width="200">
+  </picture>
+</a>
+
+For Windows we recommend **[kl!ck](https://github.com/vbu00/klick)**: a small open-source VPN client on the unmodified [mihomo](https://github.com/MetaCubeX/mihomo) core. Paste your Mistgate subscription link and get Hysteria2 and AmneziaWG in one window, with TUN, per-site and per-app routing and a kill switch that keeps working when the window is closed. macOS is on the way.
+
+**[Download for Windows](https://github.com/vbu00/klick/releases/latest)** · [Source](https://github.com/vbu00/klick) · MIT
+
 ## Status
 
 Mistgate is pre-release. What exists and what is coming:
@@ -48,6 +61,8 @@ Mistgate is pre-release. What exists and what is coming:
 - Синтетические проверки подключаются как настоящий клиент (пока через Hysteria2), поэтому нода «зелёная» только если трафик реально идёт.
 - Обновления агента подписаны и откатываются сами; для AI-агентов есть токены и MCP-сервер с подтверждением опасных действий.
 - Интерфейс на русском и английском.
+
+Для Windows советуем **[kl!ck](https://github.com/vbu00/klick)** — открытый VPN-клиент на ядре mihomo: вставляете ссылку подписки Mistgate и получаете Hysteria2 и AmneziaWG в одном окне, с маршрутизацией по сайтам и программам и Kill Switch. [Скачать](https://github.com/vbu00/klick/releases/latest). Версия для macOS скоро.
 
 Код пока не опубликован, первый репозиторий появится здесь.
 
