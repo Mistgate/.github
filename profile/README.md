@@ -10,7 +10,7 @@
 
 **Mistgate** is a lightweight, self-hosted panel for your own VPN fleet: one Go binary for the panel, one for the node agent, no Docker. Hysteria2 and AmneziaWG live side by side, in one subscription, in one admin UI.
 
-**[Source code](https://github.com/Mistgate/mistgate)** · [Documentation](https://github.com/Mistgate/mistgate/tree/main/docs/en)
+**[Website & documentation](https://mistgate.app/)** · [Source code](https://github.com/Mistgate/mistgate)
 
 ## Why another panel
 
@@ -48,9 +48,9 @@ Mistgate is pre-release. What exists and what is coming:
 
 | Stage | What |
 |:--|:--|
-| **Done** | Panel and node agent over mTLS · Hysteria2 · AmneziaWG 2.0 / 3.1 · WARP egress · subscriptions and the public user page · DNS presets · health doctor, synthetic probes, alerts · signed node-agent updates with canary and rollback · API tokens and MCP server · admin UI and documentation in ru / en |
+| **Done** | Panel and node agent over mTLS · Hysteria2 · AmneziaWG 2.0 / 3.1 · WARP egress · subscriptions and the public user page · DNS presets · health doctor, synthetic probes, alerts · signed node-agent updates with canary and rollback · GitHub panel self-update with checksum verification and rollback · API tokens and MCP server · admin UI and documentation in ru / en |
 | **Now** | Node provisioning over SSH from the UI, with preflight checks · encrypted vault for server passwords · encrypted panel backups to R2 |
-| **Next** | Telegram bot for the whole fleet · more subscription formats (Xray JSON, sing-box) and subscription mirrors · panel self-update · a one-line installer |
+| **Next** | Telegram bot for the whole fleet · more subscription formats (Xray JSON, sing-box) and subscription mirrors · a one-line installer |
 | **Later** | VLESS REALITY as the first external protocol plugin |
 
 ---
