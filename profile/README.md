@@ -6,6 +6,8 @@
 
 <p><b>Your own VPN for your people, without babysitting servers.</b></p>
 
+<p><sub><b>Beta</b> · until 1.0 the API, the stored settings and the node protocol may still change</sub></p>
+
 <p><b>English</b> · <a href="https://github.com/Mistgate/.github/blob/main/profile/README.ru.md">Русский</a></p>
 
 </div>
