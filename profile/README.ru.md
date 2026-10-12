@@ -6,6 +6,8 @@
 
 <p><b>Свой VPN для своих людей — без возни с серверами.</b></p>
 
+<p><sub><b>Бета</b> · до 1.0 API, хранимые настройки и протокол ноды ещё могут меняться</sub></p>
+
 <p><a href="https://github.com/Mistgate/.github/blob/main/profile/README.md">English</a> · <b>Русский</b></p>
 
 </div>
